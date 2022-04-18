@@ -7,7 +7,7 @@ const cors = require('cors')
 app.use(cors())
 
 const {MongoClient} = require('mongodb')
-const url = "mongodb+srv://kwilson2:cPX4dYiAP9kN8rG5@cluster0.pnvyu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const url = "mongodb+srv:// . . . "
 const client = new MongoClient(url)
 
 app.post('/api', (req, res) => {
